@@ -1,21 +1,3 @@
-// 검색 input
-const searchEl = document.querySelector('.search');
-const searchInputEl = searchEl.querySelector('input');
-
-searchEl.addEventListener('click', function () {
-  searchInputEl.focus();
-});
-
-searchInputEl.addEventListener('focus', function () {
-  searchEl.classList.add('focused');
-  searchInputEl.setAttribute('placeholder', '통합검색');
-});
-
-searchInputEl.addEventListener('blur', function () {
-  searchEl.classList.remove('focused');
-  searchInputEl.setAttribute('placeholder', '');
-});
-
 // scroll 따른 요소 노출 설정
 const badgeEl = document.querySelector('header .badges');
 const toTopEl = document.querySelector('#to-top');
@@ -71,7 +53,7 @@ const fadeEls = document.querySelectorAll('.visual .fade-in');
 fadeEls.forEach(function (fadeEl, index) {
   // gsap.to(요소, 초간위 지속시간, {css옵션});
   gsap.to(fadeEl, 1, {
-    delay: (index + 1) * 0.7,
+    delay: (index + 1) * 0.7, 
     opacity: 1,
   });
 });
@@ -166,7 +148,3 @@ spyEls.forEach(function (spyEl) {
     .setClassToggle(spyEl, 'show')
     .addTo(new ScrollMagic.Controller());
 });
-
-// Copyrigth 년도 자동 업데이트
-const thisYear = document.querySelector('.this-year');
-thisYear.textContent = new Date().getFullYear(); // 올해년도
