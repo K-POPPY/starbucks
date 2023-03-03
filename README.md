@@ -1,7 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a49e4a5-946b-4afa-9147-870f82438143/deploy-status)](https://app.netlify.com/sites/mellifluous-liger-a32369/deploys)  
 # Starbucks clone coding
 [![starbucklogo](https://mellifluous-liger-a32369.netlify.app/images/starbucks_logo.png)](https://mellifluous-liger-a32369.netlify.app/)  
 
-<a href="https://mellifluous-liger-a32369.netlify.app/" target="_blank">Netlify로 배포</a>  
+<a href="https://mellifluous-liger-a32369.netlify.app/" target="_blank">main page</a>  
 <a href="https://mellifluous-liger-a32369.netlify.app/signin/" target="_blank">Signin page</a>  
 
 - 시멘틱마크업 & BEM 네이밍규칙 사용
