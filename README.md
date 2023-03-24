@@ -5,7 +5,7 @@
 <a href="https://mellifluous-liger-a32369.netlify.app/" target="_blank">main page</a>  
 <a href="https://mellifluous-liger-a32369.netlify.app/signin/" target="_blank">Signin page</a>  
 
-- 시멘틱마크업 & BEM 네이밍규칙 사용
+- 웹표준과 웹접근성을 준수 / 시멘틱마크업 & BEM 네이밍규칙 사용
 - 검색input 부모요소를 활용해 input옆 서치아이콘 클릭시에도 검색input과 동일한 움직임 구현
 - 프로모션 닫기열기 토글버튼 구현
 - Swiper 라이브러리를 사용해 공지사항, 프로모션, 어워즈 수직수평 슬라이드 구현 
