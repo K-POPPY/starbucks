@@ -2,7 +2,7 @@
 # Starbucks clone coding
 [![starbucklogo](https://mellifluous-liger-a32369.netlify.app/images/starbucks_logo.png)](https://mellifluous-liger-a32369.netlify.app/)  
 
-<a href="https://mellifluous-liger-a32369.netlify.app/" target="_blank">main page</a>  
+<a href="https://mellifluous-liger-a32369.netlify.app/" target="_blank">Main page</a>  
 <a href="https://mellifluous-liger-a32369.netlify.app/signin/" target="_blank">Signin page</a>  
 
 - 웹표준과 웹접근성을 준수 / 시멘틱마크업 & BEM 네이밍규칙 사용
